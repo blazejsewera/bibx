@@ -4,6 +4,7 @@
 *.dll
 *.so
 *.dylib
+/bibx
 
 # Test binary, built with `go test -c`
 *.test

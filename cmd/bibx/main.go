@@ -28,7 +28,7 @@ func main() {
 	}
 
 	merged := bibx.Merge(bibs)
-	fmt.Fprintln(os.Stdout, merged)
+	fmt.Fprint(os.Stdout, merged)
 }
 
 func parseDirArg() (string, error) {
